@@ -1,5 +1,7 @@
 # smol
 
+> Forked by ptrcnull to make some customizations
+
 A minimal, monospaced blogging theme for Hugo that respects your privacy and is easy on your bandwidth.
 
 A real-life example can be found at https://morph.sh.
