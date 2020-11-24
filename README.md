@@ -4,26 +4,23 @@
 
 A minimal, monospaced blogging theme for Hugo that respects your privacy and is easy on your bandwidth.
 
-A real-life example can be found at https://morph.sh.
+A real-life example can be found at https://ptrcnull.me.
 
 smol is based on [Blank](https://github.com/Vimux/Blank) created by [Vimux](https://github.com/Vimux).
 
-
-![Screenshot](/images/tn.png)
 
 ## Features
 
 - No JavaScript
 - No Google spyware or tracking of any kind
 - No other external dependencies, embedded fonts or comment sections
-- Dark mode support (depending on your OS's setting)
 
 ## Installation
 
 In your Hugo site `themes` directory, run:
 
 ```
-git clone https://github.com/colorchestra/smol
+git clone https://git.ddd.rip/ptrcnull/smol
 ```
 
 Next, open `config.toml` in the base of the Hugo site and ensure the theme option is set to `smol`.
