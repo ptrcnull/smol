@@ -1,7 +1,7 @@
 <header>
-	=={{ strings.Repeat ( .Site.Title | len ) "=" }}==<br>
+	{{ strings.Repeat ( .Site.Title | len | add 4 ) "=" }}<br>
 	= <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a> =<br>
-	=={{ strings.Repeat ( .Site.Title | len ) "=" }}==
+	{{ strings.Repeat ( .Site.Title | len | add 4 ) "=" }}
 	<div style="float: right;">{{ .Site.Params.subtitle }}</div><br>
 	<p>
 	<nav>
