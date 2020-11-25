@@ -8,7 +8,7 @@
 			<a href="/"><b>Home</b></a> .
 			{{ with .Site.Menus.main }}
 				{{ range $i, $e := . }}
-				<a href="{{ $e.URL | relURL }}"><b>{{ $e.Name }}</b></a>{{ if ne (len .Site.Menus.main) $i }} . {{ end }}
+				<a href="{{ $e.URL | relURL }}"><b>{{ $e.Name }}</b></a>{{ if ne (sub (len $.Site.Menus.main) 1) $i }} . {{ end }}
 				{{ end }}
 			{{ end }}
 	</nav>
