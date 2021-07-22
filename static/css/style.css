@@ -16,10 +16,10 @@ h3 {
     line-height: 1.2
 }
 
-p>code {
-    color: #FFFFFF;
-    background: #000000;
-    padding: 2px
+code:not(pre>code) {
+    color: #272822;
+    background: #eeeeee;
+    padding: 2px;
 }
 
 pre {
