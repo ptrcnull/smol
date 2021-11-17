@@ -20,7 +20,7 @@ smol is based on [Blank](https://github.com/Vimux/Blank) created by [Vimux](http
 In your Hugo site `themes` directory, run:
 
 ```
-git clone https://git.ddd.rip/ptrcnull/smol
+git clone https://github.com/ptrcnull/smol
 ```
 
 Next, open `config.toml` in the base of the Hugo site and ensure the theme option is set to `smol`.
