@@ -24,7 +24,7 @@ code:not(pre>code) {
 
 pre {
     color: #FFFFFF;
-    background: #000000;
+    background: #272822;
     padding: 24px;
     overflow-x: auto
 }
