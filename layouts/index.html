@@ -4,5 +4,17 @@
 		<div>
 			{{ .Content }}
 		</div>
+		{{ range .Pages }}
+			<h2>{{ .Title }}</h2>
+			<ul>
+				{{ range .Pages }}
+				<li>
+					<div class="post-title">
+						{{ .Date.Format "2006-01-02" }} <a href="{{ .RelPermalink }}">{{.Title }}</a>
+					</div>
+				</li>
+				{{ end }}
+			</ul>
+		{{ end }}
 	</main>
 {{ end }}
