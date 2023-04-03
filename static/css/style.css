@@ -30,9 +30,13 @@ body {
     max-width: 800px;
     margin: 40px auto;
     padding: 0 10px;
-    font: 14px/1.5 monospace;
+    font: 14px/1.5 sans-serif;
     background-color: var(--main-bg-color);
     color: var(--main-fg-color);
+}
+
+header {
+    font-family: monospace;
 }
 
 h1,
