@@ -1,8 +1,8 @@
 :root {
     --main-bg-color: #ffffff;
-    --main-fg-color: #222222;
+    --main-fg-color: #000000;
 
-    --code-bg-color: #eeeeee;
+    --code-bg-color: #dddddd;
     --code-fg-color: #272822;
 
     --link-fresh-color: #0072b2;
@@ -14,7 +14,7 @@
         --main-bg-color: #222222;
         --main-fg-color: #ffffff;
 
-        --code-bg-color: #272822;
+        --code-bg-color: #000000;
         --code-fg-color: #eeeeee;
 
         --link-fresh-color: #56b4e9;
