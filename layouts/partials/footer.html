@@ -1,7 +1,7 @@
 <footer>
 	<p>&copy; {{ now.Year }} <a href="{{ .Site.BaseURL }}"><b>{{ if .Site.Copyright }}{{ .Site.Copyright }}{{ else }}{{ .Site.Title }}{{ end }}</b></a> .
 		{{- range $i, $e := .Site.Menus.footer }}
-			<a href="{{ $e.URL }}"><b>{{ $e.Name }}</b></a>{{ if ne (sub (len $.Site.Menus.footer) 1) $i }} . {{ end }}
+			<a {{ if $e.Params.Rel }}rel="{{ $e.Params.Rel }}" {{ end -}} href="{{ $e.URL }}"><b>{{ $e.Name }}</b></a>{{ if ne (sub (len $.Site.Menus.footer) 1) $i }} . {{ end }}
 		{{- end }}
 	</p>
 </footer>
